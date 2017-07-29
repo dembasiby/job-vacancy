@@ -4,7 +4,7 @@ module JobVacancy
     register Padrino::Mailer
     register Padrino::Helpers
     register Padrino::Sprockets
-    sprockets
+    sprockets :minify => (Padrino.env == :production)
     enable :sessions
 
     ##

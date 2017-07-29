@@ -8,6 +8,10 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    POpen4 (0.1.4)
+      Platform (>= 0.4.0)
+      open4
+    Platform (0.4.0)
     activemodel (5.1.2)
       activesupport (= 5.1.2)
     activerecord (5.1.2)
@@ -24,15 +28,18 @@ GEM
     diff-lcs (1.3)
     enumerable-lazy (0.0.2)
     erubi (1.6.1)
+    execjs (2.7.0)
     i18n (0.8.6)
     mail (2.6.6)
       mime-types (>= 1.16, < 4)
     mime-types (2.99.3)
     minitest (5.10.3)
     moneta (0.8.1)
+    multi_json (1.12.1)
     mustermann (1.0.0)
     mustermann19 (0.4.4)
       enumerable-lazy
+    open4 (1.3.4)
     padrino (0.14.1.1)
       padrino-admin (= 0.14.1.1)
       padrino-cache (= 0.14.1.1)
@@ -99,6 +106,11 @@ GEM
     tilt (2.0.8)
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
+    uglifier (2.1.1)
+      execjs (>= 0.3.0)
+      multi_json (~> 1.0, >= 1.0.2)
+    yui-compressor (0.9.6)
+      POpen4 (>= 0.1.4)
 
 PLATFORMS
   ruby
@@ -112,6 +124,8 @@ DEPENDENCIES
   rake
   rspec
   sqlite3
+  uglifier (= 2.1.1)
+  yui-compressor (= 0.9.6)
 
 BUNDLED WITH
    1.15.3
