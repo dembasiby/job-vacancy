@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/nightsailer/padrino-sprockets.git
+  remote: https://github.com/nightsailer/padrino-sprockets.git
   revision: ae18862677fe8a6fe36c85dbc5b016ed919421ba
   specs:
     padrino-sprockets (0.0.3)
@@ -29,6 +29,8 @@ GEM
     enumerable-lazy (0.0.2)
     erubi (1.6.1)
     execjs (2.7.0)
+    factory_girl (4.8.0)
+      activesupport (>= 3.0.0)
     i18n (0.8.6)
     mail (2.6.6)
       mime-types (>= 1.16, < 4)
@@ -118,6 +120,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord (>= 3.1)
   erubi (~> 1.6)
+  factory_girl (= 4.8.0)
   padrino (= 0.14.1.1)
   padrino-sprockets!
   rack-test
