@@ -1,0 +1,11 @@
+/* app/assets/stylesheets/application.css */
+
+/*
+ * This is a manifest file that'll automatically include all the stylesheets ...
+ * ...
+ *
+ *= require_self
+ *= require bootstrap
+ *= require bootstrap-theme
+ *= require site
+*/
