@@ -22,6 +22,8 @@ gem 'activerecord', '>= 3.1', :require => 'active_record'
 gem 'sqlite3'
 gem 'padrino-sprockets', :require => ['padrino/sprockets'],
   :git => 'git://github.com/nightsailer/padrino-sprockets.git'
+gem 'uglifier', '2.1.1'
+gem 'yui-compressor', '0.9.6'
 
 # Test requirements
 gem 'rspec', :group => 'test'
